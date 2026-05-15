@@ -1,0 +1,26 @@
+[
+  {
+    "player_id": 1628378,
+    "name": "De'Aaron Fox",
+    "team": "SAC",
+    "status": "out",
+    "expected_return": "2026-05-25",
+    "severity": "high"
+  },
+  {
+    "player_id": 203954,
+    "name": "Joel Embiid",
+    "team": "PHI",
+    "status": "questionable",
+    "expected_return": null,
+    "severity": "mid"
+  },
+  {
+    "player_id": 1628369,
+    "name": "Jayson Tatum",
+    "team": "BOS",
+    "status": "gtd",
+    "expected_return": null,
+    "severity": "low"
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "player_id": 1629029,
+    "name": "Luka Doncic",
+    "team": "DAL",
+    "position": "PG",
+    "base_value": 58.4,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.22,
+    "minutes_factor": 0.914,
+    "roster_factor": 1.15,
+    "dynamic_value": 78.63,
+    "risk_label": "Low Risk Superstar \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 58.4,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.34,
+        "team_pace_pct": 0.55,
+        "last10_mpg": 37.0,
+        "season_mpg": 36.5,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.22,
+        "minutes_factor": 0.914,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 203999,
+    "name": "Nikola Jokic",
+    "team": "DEN",
+    "position": "C",
+    "base_value": 61.2,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.14,
+    "minutes_factor": 0.92,
+    "roster_factor": 1.15,
+    "dynamic_value": 77.51,
+    "risk_label": "Low Risk Superstar \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 61.2,
+        "status": "healthy",
+        "games_last_30d": 13,
+        "usage_rate": 0.3,
+        "team_pace_pct": 0.45,
+        "last10_mpg": 35.5,
+        "season_mpg": 34.8,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.14,
+        "minutes_factor": 0.92,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1631094,
+    "name": "Victor Wembanyama",
+    "team": "SAS",
+    "position": "C",
+    "base_value": 46.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.16,
+    "minutes_factor": 0.931,
+    "roster_factor": 1.15,
+    "dynamic_value": 59.99,
+    "risk_label": "Low Risk Superstar \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 46.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.3,
+        "team_pace_pct": 0.55,
+        "last10_mpg": 33.0,
+        "season_mpg": 32.0,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.16,
+        "minutes_factor": 0.931,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1630162,
+    "name": "Anthony Edwards",
+    "team": "MIN",
+    "position": "SG",
+    "base_value": 44.5,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.204,
+    "minutes_factor": 0.914,
+    "roster_factor": 1.15,
+    "dynamic_value": 59.13,
+    "risk_label": "Low Risk Star \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 44.5,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.32,
+        "team_pace_pct": 0.62,
+        "last10_mpg": 36.5,
+        "season_mpg": 36.0,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.204,
+        "minutes_factor": 0.914,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1626174,
+    "name": "Domantas Sabonis",
+    "team": "SAC",
+    "position": "C",
+    "base_value": 47.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.135,
+    "minutes_factor": 0.9,
+    "roster_factor": 1.15,
+    "dynamic_value": 57.97,
+    "risk_label": "Low Risk Superstar \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 47.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.27,
+        "team_pace_pct": 0.65,
+        "last10_mpg": 35.0,
+        "season_mpg": 35.0,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.135,
+        "minutes_factor": 0.9,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1630166,
+    "name": "Tyrese Haliburton",
+    "team": "IND",
+    "position": "PG",
+    "base_value": 42.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.161,
+    "minutes_factor": 0.945,
+    "roster_factor": 1.15,
+    "dynamic_value": 55.64,
+    "risk_label": "Low Risk Star \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 42.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.27,
+        "team_pace_pct": 0.78,
+        "last10_mpg": 35.0,
+        "season_mpg": 33.5,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.161,
+        "minutes_factor": 0.945,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 203954,
+    "name": "Joel Embiid",
+    "team": "PHI",
+    "position": "C",
+    "base_value": 56.0,
+    "injury_risk_factor": 0.8,
+    "opportunity_factor": 1.24,
+    "minutes_factor": 0.87,
+    "roster_factor": 1.15,
+    "dynamic_value": 55.58,
+    "risk_label": "Mid Risk Superstar \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 56.0,
+        "status": "questionable",
+        "games_last_30d": 8,
+        "usage_rate": 0.36,
+        "team_pace_pct": 0.5,
+        "last10_mpg": 32.0,
+        "season_mpg": 33.0,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 0.8,
+        "opportunity_factor": 1.24,
+        "minutes_factor": 0.87,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1629027,
+    "name": "Trae Young",
+    "team": "ATL",
+    "position": "PG",
+    "base_value": 42.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.2,
+    "minutes_factor": 0.886,
+    "roster_factor": 1.15,
+    "dynamic_value": 53.92,
+    "risk_label": "Low Risk Star \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 42.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.32,
+        "team_pace_pct": 0.6,
+        "last10_mpg": 35.0,
+        "season_mpg": 35.5,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.2,
+        "minutes_factor": 0.886,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1628369,
+    "name": "Jayson Tatum",
+    "team": "BOS",
+    "position": "SF",
+    "base_value": 51.0,
+    "injury_risk_factor": 0.8,
+    "opportunity_factor": 1.165,
+    "minutes_factor": 0.889,
+    "roster_factor": 1.15,
+    "dynamic_value": 48.59,
+    "risk_label": "Mid Risk Superstar \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 51.0,
+        "status": "gtd",
+        "games_last_30d": 11,
+        "usage_rate": 0.31,
+        "team_pace_pct": 0.5,
+        "last10_mpg": 36.0,
+        "season_mpg": 36.4,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 0.8,
+        "opportunity_factor": 1.165,
+        "minutes_factor": 0.889,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1629680,
+    "name": "Jalen Williams",
+    "team": "OKC",
+    "position": "SF",
+    "base_value": 36.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.106,
+    "minutes_factor": 0.915,
+    "roster_factor": 1.15,
+    "dynamic_value": 43.99,
+    "risk_label": "Low Risk Star \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 36.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.26,
+        "team_pace_pct": 0.58,
+        "last10_mpg": 33.0,
+        "season_mpg": 32.5,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.106,
+        "minutes_factor": 0.915,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1641706,
+    "name": "Brandon Miller",
+    "team": "CHA",
+    "position": "SF",
+    "base_value": 31.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.105,
+    "minutes_factor": 0.931,
+    "roster_factor": 1.15,
+    "dynamic_value": 38.51,
+    "risk_label": "Low Risk Starter \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 31.0,
+        "status": "healthy",
+        "games_last_30d": 11,
+        "usage_rate": 0.27,
+        "team_pace_pct": 0.5,
+        "last10_mpg": 33.0,
+        "season_mpg": 32.0,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.105,
+        "minutes_factor": 0.931,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1630192,
+    "name": "Jalen Suggs",
+    "team": "ORL",
+    "position": "SG",
+    "base_value": 28.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.015,
+    "minutes_factor": 0.934,
+    "roster_factor": 1.15,
+    "dynamic_value": 32.05,
+    "risk_label": "Low Risk Starter",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 28.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.21,
+        "team_pace_pct": 0.5,
+        "last10_mpg": 30.0,
+        "season_mpg": 29.0,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.015,
+        "minutes_factor": 0.934,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1629677,
+    "name": "Naz Reid",
+    "team": "MIN",
+    "position": "C",
+    "base_value": 28.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.054,
+    "minutes_factor": 1.025,
+    "roster_factor": 1.0,
+    "dynamic_value": 31.76,
+    "risk_label": "Low Risk Starter",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 28.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.22,
+        "team_pace_pct": 0.62,
+        "last10_mpg": 27.0,
+        "season_mpg": 24.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.054,
+        "minutes_factor": 1.025,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1630557,
+    "name": "Walker Kessler",
+    "team": "UTA",
+    "position": "C",
+    "base_value": 26.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 0.956,
+    "minutes_factor": 0.937,
+    "roster_factor": 1.15,
+    "dynamic_value": 28.12,
+    "risk_label": "Low Risk Starter",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 26.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.16,
+        "team_pace_pct": 0.58,
+        "last10_mpg": 28.0,
+        "season_mpg": 27.0,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 0.956,
+        "minutes_factor": 0.937,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1631110,
+    "name": "Dereck Lively II",
+    "team": "DAL",
+    "position": "C",
+    "base_value": 24.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 0.95,
+    "minutes_factor": 0.94,
+    "roster_factor": 1.15,
+    "dynamic_value": 25.88,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 24.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.16,
+        "team_pace_pct": 0.55,
+        "last10_mpg": 26.0,
+        "season_mpg": 25.0,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 0.95,
+        "minutes_factor": 0.94,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1629634,
+    "name": "Jeremy Sochan",
+    "team": "SAS",
+    "position": "PF",
+    "base_value": 24.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.01,
+    "minutes_factor": 0.977,
+    "roster_factor": 1.0,
+    "dynamic_value": 24.87,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 24.0,
+        "status": "healthy",
+        "games_last_30d": 11,
+        "usage_rate": 0.2,
+        "team_pace_pct": 0.55,
+        "last10_mpg": 28.0,
+        "season_mpg": 26.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.01,
+        "minutes_factor": 0.977,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1641760,
+    "name": "Stephon Castle",
+    "team": "SAS",
+    "position": "PG",
+    "base_value": 22.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.01,
+    "minutes_factor": 1.025,
+    "roster_factor": 1.0,
+    "dynamic_value": 23.91,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 22.0,
+        "status": "healthy",
+        "games_last_30d": 11,
+        "usage_rate": 0.2,
+        "team_pace_pct": 0.55,
+        "last10_mpg": 27.0,
+        "season_mpg": 24.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.01,
+        "minutes_factor": 1.025,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1628991,
+    "name": "Aaron Nesmith",
+    "team": "IND",
+    "position": "SF",
+    "base_value": 22.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 0.996,
+    "minutes_factor": 1.007,
+    "roster_factor": 1.0,
+    "dynamic_value": 23.17,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 22.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.16,
+        "team_pace_pct": 0.78,
+        "last10_mpg": 31.0,
+        "season_mpg": 28.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 0.996,
+        "minutes_factor": 1.007,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1641710,
+    "name": "GG Jackson",
+    "team": "MEM",
+    "position": "PF",
+    "base_value": 19.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.054,
+    "minutes_factor": 1.082,
+    "roster_factor": 1.0,
+    "dynamic_value": 22.75,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 19.0,
+        "status": "healthy",
+        "games_last_30d": 11,
+        "usage_rate": 0.22,
+        "team_pace_pct": 0.62,
+        "last10_mpg": 26.0,
+        "season_mpg": 22.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.054,
+        "minutes_factor": 1.082,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1630193,
+    "name": "Quentin Grimes",
+    "team": "DAL",
+    "position": "SG",
+    "base_value": 18.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 0.98,
+    "minutes_factor": 1.2,
+    "roster_factor": 1.0,
+    "dynamic_value": 22.23,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 18.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.18,
+        "team_pace_pct": 0.55,
+        "last10_mpg": 30.0,
+        "season_mpg": 22.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 0.98,
+        "minutes_factor": 1.2,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1631128,
+    "name": "Bilal Coulibaly",
+    "team": "WAS",
+    "position": "SG",
+    "base_value": 20.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.016,
+    "minutes_factor": 1.011,
+    "roster_factor": 1.0,
+    "dynamic_value": 21.57,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 20.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.2,
+        "team_pace_pct": 0.58,
+        "last10_mpg": 30.0,
+        "season_mpg": 27.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.016,
+        "minutes_factor": 1.011,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1641705,
+    "name": "Dalton Knecht",
+    "team": "LAL",
+    "position": "SG",
+    "base_value": 18.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.0,
+    "minutes_factor": 1.127,
+    "roster_factor": 1.0,
+    "dynamic_value": 21.3,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 18.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.2,
+        "team_pace_pct": 0.5,
+        "last10_mpg": 27.0,
+        "season_mpg": 22.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.0,
+        "minutes_factor": 1.127,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1631106,
+    "name": "Jaime Jaquez Jr.",
+    "team": "MIA",
+    "position": "SF",
+    "base_value": 18.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 1.0,
+    "minutes_factor": 1.067,
+    "roster_factor": 1.0,
+    "dynamic_value": 20.17,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 18.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.2,
+        "team_pace_pct": 0.5,
+        "last10_mpg": 28.0,
+        "season_mpg": 24.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 1.0,
+        "minutes_factor": 1.067,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 203500,
+    "name": "Steven Adams",
+    "team": "HOU",
+    "position": "C",
+    "base_value": 22.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 0.92,
+    "minutes_factor": 0.945,
+    "roster_factor": 1.0,
+    "dynamic_value": 20.08,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 22.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.14,
+        "team_pace_pct": 0.55,
+        "last10_mpg": 23.0,
+        "season_mpg": 22.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 0.92,
+        "minutes_factor": 0.945,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1631114,
+    "name": "Scoot Henderson",
+    "team": "POR",
+    "position": "PG",
+    "base_value": 21.0,
+    "injury_risk_factor": 0.8,
+    "opportunity_factor": 1.084,
+    "minutes_factor": 0.937,
+    "roster_factor": 1.15,
+    "dynamic_value": 19.62,
+    "risk_label": "Mid Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 21.0,
+        "status": "gtd",
+        "games_last_30d": 9,
+        "usage_rate": 0.24,
+        "team_pace_pct": 0.62,
+        "last10_mpg": 28.0,
+        "season_mpg": 27.0,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 0.8,
+        "opportunity_factor": 1.084,
+        "minutes_factor": 0.937,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1628378,
+    "name": "De'Aaron Fox",
+    "team": "SAC",
+    "position": "PG",
+    "base_value": 41.0,
+    "injury_risk_factor": 0.5,
+    "opportunity_factor": 1.165,
+    "minutes_factor": 0.7,
+    "roster_factor": 1.15,
+    "dynamic_value": 19.23,
+    "risk_label": "High Risk Star \u00b7 Rising",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 41.0,
+        "status": "out",
+        "games_last_30d": 6,
+        "usage_rate": 0.29,
+        "team_pace_pct": 0.65,
+        "last10_mpg": 0.0,
+        "season_mpg": 34.0,
+        "depth_rank": 1
+      },
+      "multipliers": {
+        "injury_risk_factor": 0.5,
+        "opportunity_factor": 1.165,
+        "minutes_factor": 0.7,
+        "roster_factor": 1.15
+      }
+    }
+  },
+  {
+    "player_id": 1631126,
+    "name": "Cason Wallace",
+    "team": "OKC",
+    "position": "SG",
+    "base_value": 18.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 0.926,
+    "minutes_factor": 1.082,
+    "roster_factor": 1.0,
+    "dynamic_value": 18.94,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 18.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.14,
+        "team_pace_pct": 0.58,
+        "last10_mpg": 26.0,
+        "season_mpg": 22.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 0.926,
+        "minutes_factor": 1.082,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1629639,
+    "name": "Tre Jones",
+    "team": "SAS",
+    "position": "PG",
+    "base_value": 17.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 0.98,
+    "minutes_factor": 1.082,
+    "roster_factor": 1.0,
+    "dynamic_value": 18.93,
+    "risk_label": "Low Risk Role player",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 17.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.18,
+        "team_pace_pct": 0.55,
+        "last10_mpg": 26.0,
+        "season_mpg": 22.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 0.98,
+        "minutes_factor": 1.082,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1641723,
+    "name": "Jaylen Wells",
+    "team": "MEM",
+    "position": "SF",
+    "base_value": 14.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 0.964,
+    "minutes_factor": 1.025,
+    "roster_factor": 1.0,
+    "dynamic_value": 14.53,
+    "risk_label": "Low Risk Deep bench",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 14.0,
+        "status": "healthy",
+        "games_last_30d": 12,
+        "usage_rate": 0.16,
+        "team_pace_pct": 0.62,
+        "last10_mpg": 27.0,
+        "season_mpg": 24.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 0.964,
+        "minutes_factor": 1.025,
+        "roster_factor": 1.0
+      }
+    }
+  },
+  {
+    "player_id": 1641733,
+    "name": "Reed Sheppard",
+    "team": "HOU",
+    "position": "PG",
+    "base_value": 12.0,
+    "injury_risk_factor": 1.05,
+    "opportunity_factor": 0.98,
+    "minutes_factor": 1.122,
+    "roster_factor": 1.0,
+    "dynamic_value": 13.85,
+    "risk_label": "Low Risk Deep bench",
+    "breakdown": {
+      "formula": "base \u00d7 injury \u00d7 opportunity \u00d7 minutes \u00d7 roster",
+      "inputs": {
+        "fppg_last_season": 12.0,
+        "status": "healthy",
+        "games_last_30d": 10,
+        "usage_rate": 0.18,
+        "team_pace_pct": 0.55,
+        "last10_mpg": 22.0,
+        "season_mpg": 18.0,
+        "depth_rank": 2
+      },
+      "multipliers": {
+        "injury_risk_factor": 1.05,
+        "opportunity_factor": 0.98,
+        "minutes_factor": 1.122,
+        "roster_factor": 1.0
+      }
+    }
+  }
+]

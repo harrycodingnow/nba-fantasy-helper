@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+ingestion/.cache/
+
+# Node
+web/node_modules/
+web/.next/
+web/out/
+
+# OS
+.DS_Store
+*.log
