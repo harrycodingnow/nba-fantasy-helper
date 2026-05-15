@@ -27,8 +27,16 @@ jobs:
       - name: Install ingestion deps
         run: pip install -r ingestion/requirements.txt
 
-      - name: Refresh data (offline sample in CI; live runs locally)
-        run: python -m ingestion.run --offline
+      - name: Verify committed data snapshot
+        # Site is built from committed web/public/data/*.json. Refresh those
+        # locally with `python -m ingestion.run` and commit before pushing.
+        # CI deliberately does NOT regenerate to avoid clobbering live data
+        # with the offline sample (which is stale by design).
+        run: |
+          test -s web/public/data/players.json
+          test -s web/public/data/opportunities.json
+          test -s web/public/data/snapshot.json
+          python -c "import json; s=json.load(open('web/public/data/snapshot.json')); print('snapshot:', s.get('source_mode'), s.get('generated_at'), 'players=', s['counts']['players'])"
 
       - name: Set up Node
         uses: actions/setup-node@v4
