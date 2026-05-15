@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from typing import Iterable
 
-from . import nba_api
+from . import nba_client as nba_api
 
 
 def fetch_per_game_stats(season: str = "2024-25") -> list[dict]:
