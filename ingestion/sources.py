@@ -7,12 +7,17 @@ offline sample so the build never breaks.
 """
 from __future__ import annotations
 
+import os
 from typing import Iterable
 
 from . import nba_client as nba_api
 
+# Season default. Overridable via $NBA_SEASON or per-call arg.
+# NBA season string format: "YYYY-YY" (e.g. "2025-26" = season starting Oct 2025).
+DEFAULT_SEASON = os.environ.get("NBA_SEASON", "2025-26")
 
-def fetch_per_game_stats(season: str = "2024-25") -> list[dict]:
+
+def fetch_per_game_stats(season: str = DEFAULT_SEASON) -> list[dict]:
     """LeagueDashPlayerStats per-game per-mode."""
     payload = nba_api.fetch(
         "leaguedashplayerstats",
@@ -74,7 +79,7 @@ def fetch_per_game_stats(season: str = "2024-25") -> list[dict]:
     return out
 
 
-def fetch_last10_mpg(season: str = "2024-25") -> dict[int, float]:
+def fetch_last10_mpg(season: str = DEFAULT_SEASON) -> dict[int, float]:
     payload = nba_api.fetch(
         "leaguedashplayerstats",
         {
@@ -97,7 +102,7 @@ def fetch_last10_mpg(season: str = "2024-25") -> dict[int, float]:
     return {r["PLAYER_ID"]: r.get("MIN", 0.0) for r in rows}
 
 
-def fetch_team_pace(season: str = "2024-25") -> dict[str, float]:
+def fetch_team_pace(season: str = DEFAULT_SEASON) -> dict[str, float]:
     payload = nba_api.fetch(
         "leaguedashteamstats",
         {
@@ -117,7 +122,16 @@ def fetch_team_pace(season: str = "2024-25") -> dict[str, float]:
         },
     )
     rows = nba_api.rows_from_resultset(payload)
-    paces = {r["TEAM_ABBREVIATION"]: r.get("PACE", 100.0) for r in rows}
+    # leaguedashteamstats Advanced returns TEAM_ID + TEAM_NAME but no abbreviation.
+    # Map via swar's static teams index so the resulting dict is keyed by abbr to
+    # match how player rows reference their team.
+    from nba_api.stats.static import teams as _teams
+    id_to_abbr = {t["id"]: t["abbreviation"] for t in _teams.get_teams()}
+    paces = {}
+    for r in rows:
+        abbr = id_to_abbr.get(r.get("TEAM_ID"))
+        if abbr:
+            paces[abbr] = r.get("PACE", 100.0)
     if not paces:
         return {}
     vals = sorted(paces.values())

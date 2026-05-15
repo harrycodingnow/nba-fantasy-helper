@@ -1,8 +1,9 @@
 """NBA Stats API client.
 
-Talks to stats.nba.com unofficial endpoints. Requires browser-like headers or
-the API returns 403. Caches raw JSON responses keyed by (endpoint, date) so we
-don't hammer them during dev.
+Talks to stats.nba.com via the swar/nba_api package's HTTP layer so we inherit
+their maintained headers (stats.nba.com rotates anti-bot defenses; rolling our
+own User-Agent gets us 403/timeouts within months). Same on-disk JSON cache
+keyed by (endpoint, date) so we don't hammer them during dev.
 """
 from __future__ import annotations
 
@@ -14,28 +15,15 @@ from pathlib import Path
 from typing import Any, Optional
 from urllib.parse import urlencode
 
-import requests
+from nba_api.stats.library.http import NBAStatsHTTP
 
 CACHE_DIR = Path(__file__).resolve().parent / ".cache"
 CACHE_DIR.mkdir(exist_ok=True)
 
-BASE_URL = "https://stats.nba.com/stats"
-
-# stats.nba.com is allergic to non-browser User-Agents.
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 "
-        "(KHTML, like Gecko) Version/17.0 Safari/605.1.15"
-    ),
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Origin": "https://www.nba.com",
-    "Referer": "https://www.nba.com/",
-    "x-nba-stats-origin": "stats",
-    "x-nba-stats-token": "true",
-}
-
 REQUEST_DELAY_SEC = 0.6  # rate-limit polite floor
+REQUEST_TIMEOUT_SEC = 30
+
+_HTTP = NBAStatsHTTP()
 
 
 def _cache_path(endpoint: str, params: dict[str, Any]) -> Path:
@@ -51,11 +39,9 @@ def fetch(endpoint: str, params: Optional[dict[str, Any]] = None, *, force: bool
     if cache_file.exists() and not force:
         return json.loads(cache_file.read_text())
 
-    url = f"{BASE_URL}/{endpoint}"
     time.sleep(REQUEST_DELAY_SEC)
-    resp = requests.get(url, params=params, headers=HEADERS, timeout=20)
-    resp.raise_for_status()
-    data = resp.json()
+    resp = _HTTP.send_api_request(endpoint=endpoint, parameters=params, timeout=REQUEST_TIMEOUT_SEC)
+    data = resp.get_dict()
     cache_file.write_text(json.dumps(data))
     return data
 

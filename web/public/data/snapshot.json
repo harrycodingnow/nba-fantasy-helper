@@ -1,34 +1,15 @@
 {
-  "generated_at": "2026-05-15T03:52:42.131603+00:00",
+  "generated_at": "2026-05-15T08:37:36.693733+00:00",
   "format": "points",
-  "source_mode": "offline",
+  "source_mode": "live",
   "schedule": {
-    "week_start": "2026-05-18",
-    "week_end": "2026-05-24",
-    "games_per_team": {
-      "ATL": 3,
-      "BOS": 4,
-      "CHA": 3,
-      "DAL": 4,
-      "DEN": 3,
-      "HOU": 4,
-      "IND": 4,
-      "LAL": 3,
-      "MEM": 3,
-      "MIA": 4,
-      "MIN": 3,
-      "OKC": 4,
-      "ORL": 3,
-      "PHI": 3,
-      "POR": 3,
-      "SAC": 3,
-      "SAS": 3,
-      "UTA": 3,
-      "WAS": 3
-    }
+    "week_start": "2026-05-15",
+    "week_end": null,
+    "games_per_team": {},
+    "_note": "live schedule fetcher TODO; using neutral 3-game default"
   },
   "counts": {
-    "players": 30,
-    "opportunities": 30
+    "players": 582,
+    "opportunities": 582
   }
 }
