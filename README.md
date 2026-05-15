@@ -1,5 +1,7 @@
 # NBA Fantasy Helper
 
+Live site: https://harrycodingnow.github.io/nba-fantasy-helper/ (deploy = push to `main`).
+
 Two-engine fantasy NBA decision tool, points league only (v1).
 
 - **Player Value Engine** — `dynamic_value = base_value × injury_risk_factor × opportunity_factor × minutes_factor × roster_factor`. Surfaces a live ranking + risk label per player, with the multiplier breakdown exposed in the UI.
